@@ -1,6 +1,7 @@
 <template>
   <div>
     <hero></hero>
+    <p>Test</p>
   </div>
 </template>
 <script>
