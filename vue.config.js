@@ -1,9 +1,7 @@
 const webpack = require('webpack');
 
 module.exports = {
-publicPath: process.env.NODE_ENV === 'production'
-    ? '/deadmantest/'
-    : '/',
+  publicPath: '',
 
   configureWebpack: {
     // Set up all the aliases we use in our app.
